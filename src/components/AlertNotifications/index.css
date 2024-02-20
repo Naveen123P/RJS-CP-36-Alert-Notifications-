@@ -1,0 +1,67 @@
+/* Write your CSS here */
+.bg-container1 {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bg-container2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.alert-heading {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+  color: black;
+  margin-bottom: 60px;
+}
+.Notification-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 2px solid #64748b;
+  padding: 10px 7px;
+  margin: 5px;
+}
+.AiFillCheckCircle-icon {
+  color: #2dca73;
+  align-self: flex-start;
+  margin-top: 12px;
+}
+.success-heading {
+  color: #2dca73;
+  font-size: medium;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+.heading {
+  font-size: medium;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+.RiErrorWarningFill-icon {
+  color: #ff0b37;
+  align-self: flex-start;
+  margin-top: 12px;
+}
+.Error-heading {
+  color: #ff0b37;
+}
+.MdWarning-icon {
+  color: #ffb800;
+  align-self: flex-start;
+  margin-top: 12px;
+}
+.Warning-heading {
+  color: #ffb800;
+}
+.MdInfo-icon {
+  color: #0f81e0;
+  align-self: flex-start;
+  margin-top: 12px;
+}
+.Info-heading {
+  color: #0f81e0;
+}
